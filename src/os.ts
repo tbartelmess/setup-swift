@@ -7,7 +7,7 @@ export enum OS {
 
 const AVAILABLE_OS: { [platform: string]: string[] } = {
   macOS: ["latest"],
-  Ubuntu: ["18.04", "16.04"],
+  Ubuntu: ["20.04", "18.04", "16.04"],
 };
 
 export interface System {
